@@ -1,6 +1,7 @@
+import sys
+sys.path.append("~/project")
 from unittest import TestCase
-
-from ..src.main import function
+from src.main import function
 
 class MainTestCase(TestCase):
     def test_add(self):
