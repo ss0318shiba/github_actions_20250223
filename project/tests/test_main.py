@@ -1,5 +1,5 @@
 import sys
-sys.path.append("~/work/github_actions_20250223/github_actions_20250223/project/src")
+sys.path.append("/home/runner/work/github_actions_20250223/github_actions_20250223/project/src/")
 from unittest import TestCase
 from main import function
 
