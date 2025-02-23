@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: 3.13.2
 
-      - name: change directory into project
+      - name: unittest step
         run: |
           ls ~/
           pwd
