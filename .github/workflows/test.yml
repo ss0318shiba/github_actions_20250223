@@ -16,6 +16,7 @@ jobs:
 
       - name: change directory into project
         run: |
+          ls ~/
           pwd
           cd ./project/tests/
           pwd
