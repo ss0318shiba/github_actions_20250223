@@ -15,8 +15,9 @@ jobs:
           python-version: 3.13.2
 
       - name: change directory into project
-        run: cd ./project/tests/
-      - name: check working directory
-        run: ls -a
-      - name: Run tests
-        run: python -m unittest -v test_main
+        run: |
+          pwd
+          cd ./project/tests/
+          pwd
+          ls -a
+          python -m unittest -v test_main
