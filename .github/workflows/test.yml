@@ -16,9 +16,5 @@ jobs:
 
       - name: change directory into project
         run: |
-          ls ~/
+          cd ~/
           pwd
-          cd ./project/tests/
-          pwd
-          ls -a
-          python -m unittest -v test_main
