@@ -1,5 +1,5 @@
 import sys
-sys.path.append("~/project")
+sys.path.append("~/project/src")
 from unittest import TestCase
 from main import function
 
