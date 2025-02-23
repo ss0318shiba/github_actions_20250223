@@ -1,7 +1,5 @@
 from unittest import TestCase
-
 from src.main import add
-
 
 class MainTestCase(TestCase):
     def test_add(self):
