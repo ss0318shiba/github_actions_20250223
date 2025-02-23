@@ -15,7 +15,7 @@ jobs:
           python-version: 3.13.2
 
       - name: change directory into project
-        run: cd project
+        run: cd project/tests/
 
       - name: Run tests
-        run: python -m unittest -v tests.test_sample
+        run: python -m unittest -v test_sample
