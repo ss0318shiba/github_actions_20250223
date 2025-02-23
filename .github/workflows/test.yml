@@ -15,7 +15,7 @@ jobs:
           python-version: 3.13.2
 
       - name: Setup Poetry
-        uses: Gr1N/setup-poetry@v7
+        uses: Gr1N/setup-poetry@v9
 
       - name: Run poetry install
         run: poetry install
