@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from main import function
+from ..src.main import function
 
 class MainTestCase(TestCase):
     def test_add(self):
